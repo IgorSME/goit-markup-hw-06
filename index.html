@@ -94,13 +94,15 @@
                             <label class="registration-label-title" for="comments">Комментарий</label>
                             <textarea name="comments" class="registration-comments" id="comments" rows="10" placeholder="Введите текст"></textarea>
                         </div>
-                        <div class="registration-field">
+                        <div class="registration-field-policy">
                             <label class="policy-title">
                                 <input type="checkbox" class="policy-check" name="policy">
-                                <span class="policy-icon"></span>
-                                Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                                <svg class="policy-icon"width="16" height="15" >
+                                    <use href="./images/icons.svg#icon-agree"></use>
+                                </svg>
+                                Соглашаюсь с рассылкой и принимаю  <span class="agreement-link">  Условия договора</span></label>
                         </div>
-                        <button type="submit" class="hero-button">Отправить</button>
+                        <button type="submit" class="hero-button modal-send-button">Отправить</button>
 
                     </form>
                 </div>
@@ -434,7 +436,11 @@
                 <h2 class="footer-social-title">Подпишитесь на рассылку</h2>
                 <form action="" class="footer-form">
                     <input type="text" class="footer-form-input" name="email" placeholder="E-mail">
-                    <button type="submit" class="hero-button">Подписаться</button>
+                    <button type="submit" class="hero-button">Подписаться
+                        <svg class="footer-form-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-icon-send-2"></use>
+                        </svg>
+                    </button>
                 </form>
             </div>
         </div>
