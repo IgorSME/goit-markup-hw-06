@@ -45,7 +45,7 @@
         <section class="hero-section">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
-            <div class="backdrop" data-modal>
+            <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button type="button" class="modal-btn" data-modal-close>
                         <svg class="modal-close-btn" width="18" height="18">
@@ -95,8 +95,10 @@
                             <textarea name="comments" class="registration-comments" id="comments" rows="10" placeholder="Введите текст"></textarea>
                         </div>
                         <div class="registration-field">
-                            <input type="checkbox" name="policy" id="policy">
-                            <label for="policy" class="policy-title">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                            <label class="policy-title">
+                                <input type="checkbox" class="policy-check" name="policy">
+                                <span class="policy-icon"></span>
+                                Соглашаюсь с рассылкой и принимаю Условия договора</label>
                         </div>
                         <button type="submit" class="hero-button">Отправить</button>
 
