@@ -398,15 +398,13 @@ ul {
 .policy-check:checked + .policy-icon {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  background-image: url(../images/icon\ check.svg);
+  /* background-image: url(../images/icon\ check.svg);
   background-size: contain;
   background-position: center;
-  background-origin: border-box;
+  background-origin: border-box; */
 }
 .policy-icon {
   margin-right: 7px;
-  /* width: 16px;
-  height: 15px; */
   border: 1px solid var(--primary-text-color);
   border-radius: 2px;
   transition: background-color 250ms var(--timing-function),
@@ -438,7 +436,6 @@ ul {
 }
 .work-picture {
   position: relative;
-  /* text-align: center; */
 }
 .work-block {
   display: flex;
