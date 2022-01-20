@@ -312,24 +312,19 @@ ul {
 }
 .registration-form {
 }
-.registration-field {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
+
 .registration-field.comments-field {
   margin-bottom: 20px;
-}
-.registration-field-policy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-bottom: 30px;
 }
 .registration-label {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
+}
+.registration-comments-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 .registration-input {
   padding-left: 42px;
@@ -386,6 +381,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+
+  cursor: pointer;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secodary-text-color);
